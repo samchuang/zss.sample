@@ -1,0 +1,11 @@
+<zk>
+	<div apply="zss.sample.SpreadsheetCtrl" height="100%" width="100%">
+		<hlayout>
+			<button id="exportExcel" label="Export to Excel"></button>
+			<button id="exportPDF" label="Export to PDF"></button>
+			<button id="exportHTML" label="Export to HTML"></button>
+		</hlayout>
+		<spreadsheet id="spreadsheet" src="/xls/empty.xlsx" maxrows="1000" height="100%" width="100%"
+			maxcolumns="60"></spreadsheet>
+	</div>
+</zk>
